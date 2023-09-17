@@ -1,24 +1,46 @@
-<header class="p-3 text-bg-dark">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-            <h2>Express</h2>
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">About</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Premium</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">+ New Blog</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control form-control-dark text-bg-light" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+<div class="landing-page container-fluid p-0 justify-content-center">
+    <header class="py-3 text-bg-dark">
+        <div class="container max-width px-0">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <h2>Express</h2>
+                </a>
+    
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-secondary">About</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Premium</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">+ New Blog</a></li>
+                </ul>
+    
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-light" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+    
+                <div class="text-end">
+                    <a routerLink="/signin">
+                        <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    </a>
+                    <a routerLink="/signup">
+                        <button type="button" class="btn btn-warning">Sign-up</button>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
+    </header>
+    
+    
+    <div class="container-fluid justify-content-center d-flex" style="background: linear-gradient(291deg, #FFF 0.22%, rgba(255, 170, 41, 0.93) 86.92%);">
+        <div class="max-width ">
+            <div class="row">
+                <div class="col-7">
+                    <h1 class="landing-page-heading">Find Blogs on any topic from millions of writers all over the world </h1>
+                </div>
+                <div class="col-5">
+                    <img src="..\assets\Woman reading a book at night sitting on the window.png" alt="">
+                </div>
+            </div>
+        </div>
+        
     </div>
-  </header>
+</div>

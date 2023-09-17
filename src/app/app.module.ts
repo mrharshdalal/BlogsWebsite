@@ -9,6 +9,10 @@ import { LandingComponentComponent } from './landing-component/landing-component
 import { CreateBlogComponentComponent } from './create-blog-component/create-blog-component.component';
 import { HomePageComponentComponent } from './home-page-component/home-page-component.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms'; // Import FormsModule
+import { HttpClientModule } from '@angular/common/http';
+
+import { SignupService } from './signup-component/signup.service'; // Adjust the import path
 
 @NgModule({
   declarations: [
@@ -22,7 +26,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
